@@ -1,0 +1,62 @@
+.body{
+    background-color:hotpink;
+    display: grid;
+    margin: 0;
+    grid-template-areas:
+    'n n n n'
+    's s s a'
+    'f f f f';
+    gap: 2px;
+}
+
+.nav{
+    height: 60px;
+    grid-area: n;
+    background-color:slateblue;
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+li{
+    padding: 0.25%;
+    list-style: none;
+    font: menu;
+    transition: .25s;
+
+}
+
+li:hover{
+    background-color:crimson;
+    color:yellow;
+    padding: 1%;
+}
+
+.header{
+    height: 300px;
+    grid-area: h;
+    background-color:crimson;
+
+}
+
+.section{
+    height: 720px;
+    grid-area: s;
+    background-color:gold;
+
+}
+
+.aside{
+    grid-area: a;
+    background-color:lightpink;
+}
+
+.footer{
+    height: 64px;
+    grid-area: f;
+
+}

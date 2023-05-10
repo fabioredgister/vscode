@@ -4,3 +4,52 @@
     background-color: #000;
     padding: 50px;
 }
+
+.block{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    border: solid 2px;
+    margin: 0 auto;
+}
+
+.block div{
+    /*width: 100px;
+    height: 100px;*/
+    height: 75%;
+    padding: 85px;
+    background-color:chartreuse;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.block div span{
+    background-color:darkslateblue;
+    /* padding: 32; */
+    height: 10%
+
+}
+
+.flex{
+    background-color:crimson;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+.flex div{
+    height: 100%;
+    background-color:deeppink;
+}
+
+.flex div span{
+    padding: 10px;
+    background-color:gold;
+
+}
